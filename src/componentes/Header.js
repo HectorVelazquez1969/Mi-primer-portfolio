@@ -1,10 +1,14 @@
 import React from "react";
+import '../Header.css';
+
 
 export default function Header() {
   return (
     <header className="header">
-      <img src="../public/miimagen.jpg" alt="mi foto"></img>
-      <h1>Mi Portfolio</h1>
+      <div className="Hector">
+        <img src="mifoto.jpg" alt="mifoto" className="header-logo"/>
+      </div>
+      <h1 className="titulo1">Mi Portfolio</h1>
     </header>
   );
 }

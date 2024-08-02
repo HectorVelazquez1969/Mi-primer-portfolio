@@ -1,8 +1,23 @@
-.Header{
-    display: flex;
-    align-items: center;
-}
+  .header-logo {
+    width: 200px;
+    height: auto;
+    margin-right: 15px;
 
-.header-logo{
+  }
+.Hector{
+    display: flex;
+    flex-direction: column;
+    max-width: 80px;
+}
+.header h1{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
     
+
+}
+h1{
+    position: absolute;
+    left: 800px;
+    top: 120px;
 }
